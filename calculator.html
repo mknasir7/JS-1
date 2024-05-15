@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="calscript.js"></script>
+    <style>
+        bode{background-color: beige;}
+        h1{color: red;}
+
+    </style>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1" required><br>
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2" required><br>
+    <select id="operator">
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+    </select>
+    <br>
+    <button onclick="calculate()">Calculate</button>
+    <p id="result"></p>
+
+     </body>
+</html>

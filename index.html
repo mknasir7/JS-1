@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Add JavaScript Code inside Head Section
+    </title>
+    <style>
+        h2{color: red;}
+        body{background-color: beige;}
+    </style>
+
+    <script>
+        function myFun() {
+            document.getElementById("demo")
+                .innerHTML = "Content has been changed!";
+        }
+    </script>
+</head>
+
+<body>
+    <h2>
+        Add JavaScript Code
+        inside Head Section
+    </h2>
+
+    <h3 id="demo" style="color:green;">
+      Heading three 
+    </h3>
+
+    <button type="button" onclick="myFun()">
+        Click Here
+    </button>
+</body>
+
+</html>
